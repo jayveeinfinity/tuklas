@@ -93,14 +93,14 @@ Each idea contains only essential academic components:
 ## 🧩 Project Philosophy
 
 Tuklas is **not**:
-❌ A thesis archive
-❌ A paper-sharing platform
-❌ A plagiarism shortcut
+❌ A thesis archive  
+❌ A paper-sharing platform  
+❌A plagiarism shortcut  
 
 Tuklas **is**:
-✔ A thinking tool
-✔ A discovery space
-✔ A starting line for research
+- ✔ A thinking tool  
+- ✔ A discovery space  
+- ✔ A starting line for research  
 
 ---
 
