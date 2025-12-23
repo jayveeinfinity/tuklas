@@ -97,7 +97,7 @@ Tuklas is **not**:
 ❌ A paper-sharing platform  
 ❌A plagiarism shortcut  
 
-Tuklas **is**:
+Tuklas **is**:  
 ✔ A thinking tool  
 ✔ A discovery space  
 ✔ A starting line for research  
