@@ -98,9 +98,9 @@ Tuklas is **not**:
 ❌A plagiarism shortcut  
 
 Tuklas **is**:
-- ✔ A thinking tool  
-- ✔ A discovery space  
-- ✔ A starting line for research  
+✔ A thinking tool  
+✔ A discovery space  
+✔ A starting line for research  
 
 ---
 
