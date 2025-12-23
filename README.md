@@ -92,7 +92,7 @@ Each idea contains only essential academic components:
 
 ## 🧩 Project Philosophy
 
-Tuklas is **not**:
+Tuklas is **not**:  
 ❌ A thesis archive  
 ❌ A paper-sharing platform  
 ❌A plagiarism shortcut  
