@@ -5,7 +5,6 @@
 @endsection
 
 @section('content')
-
 <div class="max-w-7xl mx-auto px-6 py-8">
 
     <!-- Page Header -->
