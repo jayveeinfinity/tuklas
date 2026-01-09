@@ -12,7 +12,7 @@ class IdeaController extends Controller
      */
     public function index()
     {
-        $ideas = Idea::all();
+        $ideas = Idea::orderBy('created_at', 'desc')->get();
 
         return view('pages.ideas.index', compact('ideas'));
     }
