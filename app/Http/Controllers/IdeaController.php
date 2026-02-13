@@ -3,18 +3,26 @@
 namespace App\Http\Controllers;
 
 use App\Models\Idea;
+use Inertia\Inertia;
 use Illuminate\Http\Request;
 
 class IdeaController extends Controller
 {
+    public function __construct()
+    {
+        Inertia::setRootView('layouts/app');
+    }
+
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
         $ideas = Idea::orderBy('created_at', 'desc')->get();
-
-        return view('pages.ideas.index', compact('ideas'));
+        
+        return Inertia::render('Ideas/Index', [
+            'ideas' => $ideas
+        ]);
     }
 
     /**
@@ -22,7 +30,7 @@ class IdeaController extends Controller
      */
     public function create()
     {
-        return view('pages.ideas.create');
+        return Inertia::render('Ideas/Create');
     }
 
     /**
@@ -61,7 +69,9 @@ class IdeaController extends Controller
      */
     public function show(Idea $idea)
     {
-        return view('pages.ideas.show', compact('idea'));
+        return Inertia::render('Ideas/Show', [
+            'idea' => $idea
+        ]);
     }
 
     /**

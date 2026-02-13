@@ -3,14 +3,11 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>@yield('title') {{ config('app.name', 'Tuklas') }}</title>
-
-        {{-- Tailwind CSS --}}
-        @vite('resources/css/app.css')
+        @routes
+        @vite(['resources/js/app.js', 'resources/css/app.css'])
+        @inertiaHead
     </head>
     <body>
-        @yield('content')
-        @stack('scripts')
+        @inertia
     </body>
 </html>
